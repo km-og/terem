@@ -1,0 +1,10 @@
+.block__button {
+  display: block;
+  margin: 76px auto;
+}
+
+@media screen and (max-width: 767px) {
+  .block__button {
+    margin: 26px auto;
+  }
+}

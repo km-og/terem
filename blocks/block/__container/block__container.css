@@ -1,0 +1,11 @@
+.block__container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .block__container {
+    flex-direction: column;
+  }
+}

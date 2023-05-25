@@ -1,0 +1,21 @@
+.block__with-button {
+  margin: 0;
+  padding: 0;
+  background-color: #4e4949;
+  border: 1px solid #000;
+}
+
+.block__with-button:first-of-type {
+  width: calc(100% / 3);
+}
+
+.block__with-button:last-of-type {
+  width: calc(100% / 3 * 2);
+}
+
+@media screen and (max-width: 767px) {
+  .block__with-button:first-of-type,
+  .block__with-button:last-of-type {
+    width: 100%;
+  }
+}
