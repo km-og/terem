@@ -1,6 +1,6 @@
 .block__content {
   height: 200px;
-  width: calc(100% / 3);
+  width: calc((100% - 20px) / 3);
   border: 1px solid #000;
 }
 

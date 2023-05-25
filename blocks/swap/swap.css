@@ -21,3 +21,27 @@
     transform: translateX(calc(100% + 10px));
   }
 }
+
+@keyframes swapBackToLeft {
+  0% {
+    transform: translateX(calc(-100% - 10px));
+  }
+  50% {
+    transform: translate(calc(-50% - 10px), 50%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes swapBackToRigth {
+  0% {
+    transform: translateX(calc(100% + 10px));
+  }
+  50% {
+    transform: translate(calc(50% + 10px), -50%);
+  }
+  100% {
+    transform: translate(0);
+  }
+}

@@ -6,11 +6,11 @@
 }
 
 .block__with-button:first-of-type {
-  width: calc(100% / 3);
+  width: calc((100% - 10px) / 3);
 }
 
 .block__with-button:last-of-type {
-  width: calc(100% / 3 * 2);
+  width: calc((100% - 10px) / 3 * 2);
 }
 
 @media screen and (max-width: 767px) {

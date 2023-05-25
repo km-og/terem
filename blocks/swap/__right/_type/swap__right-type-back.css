@@ -1,5 +1,5 @@
 .swap__right-type-back {
-  animation: swapToRigth 2s ease forwards reverse;
-  -webkit-animation: swapToRigth 2s ease forwards reverse;
-  -moz-animation: swapToRigth 2s ease forwards reverse;
+  animation: swapBackToRigth 2s ease forwards;
+  -webkit-animation: swapBackToRigth 2s ease forwards;
+  -moz-animation: swapBackToRigth 2s ease forwards;
 }
