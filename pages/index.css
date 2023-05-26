@@ -10,9 +10,5 @@
 @import url(../blocks/block/__with-button/block__with-button.css);
 @import url(../blocks/block/__button/block__button.css);
 @import url(../blocks/block/_type/block_type_hidden.css);
+@import url(../blocks/block/__swap/block__swap.css);
 
-@import url(../blocks/swap/swap.css);
-@import url(../blocks/swap/__left/swap__left.css);
-@import url(../blocks/swap/__left/_type/swap__left-type-back.css);
-@import url(../blocks/swap/__right/swap__right.css);
-@import url(../blocks/swap/__right/_type/swap__right-type-back.css);
